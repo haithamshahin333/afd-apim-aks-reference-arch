@@ -1,0 +1,23 @@
+{
+    "subnets": [
+        {
+          "name": "lbSubnet",
+          "properties": {
+            "addressPrefix": "10.0.0.0/24",
+            "privateLinkServiceNetworkPolicies": "Disabled"
+          }
+        },
+        {
+          "name": "apimSubnet",
+          "properties": {
+            "addressPrefix": "10.0.1.0/24"
+          }
+        },
+        {
+          "name": "aksSubnet",
+          "properties": {
+            "addressPrefix": "10.0.2.0/24"
+          }
+        }                      
+      ]
+}
