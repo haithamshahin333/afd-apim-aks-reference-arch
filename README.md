@@ -1,4 +1,4 @@
-# FRONT DOOR -> APIM -> AKS-EXPOSED API
+# FRONT DOOR / APIM / AKS API
 
 ## Goal
 
